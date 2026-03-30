@@ -1,0 +1,2139 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table of Contents &mdash; My documentation 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=9edc463e" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f2a433a1"></script>
+      <script src="_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            My documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Table of Contents</a></li>
+<li><a class="reference internal" href="#introduction-overview">Introduction &amp; Overview</a><ul>
+<li><a class="reference internal" href="#what-is-iccare-biobank">What is iCCaRE Biobank?</a></li>
+<li><a class="reference internal" href="#key-capabilities">Key Capabilities</a></li>
+<li><a class="reference internal" href="#system-requirements">System Requirements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#getting-started">Getting Started</a><ul>
+<li><a class="reference internal" href="#accessing-the-application">Accessing the Application</a></li>
+<li><a class="reference internal" href="#signing-up">Signing Up</a><ul>
+<li><a class="reference internal" href="#first-time-users">First-time users:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#logging-in">Logging In</a></li>
+<li><a class="reference internal" href="#navigating-the-interface">Navigating the Interface</a><ul>
+<li><a class="reference internal" href="#header-top-bar">Header (Top Bar)</a></li>
+<li><a class="reference internal" href="#sidebar-left-panel">Sidebar (Left Panel)</a></li>
+<li><a class="reference internal" href="#main-content-area">Main Content Area</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dashboard">Dashboard</a><ul>
+<li><a class="reference internal" href="#overview-cards">Overview Cards</a></li>
+<li><a class="reference internal" href="#freezer-capacity-chart">Freezer Capacity Chart</a></li>
+<li><a class="reference internal" href="#sample-inventory-trend">Sample Inventory Trend</a></li>
+<li><a class="reference internal" href="#recent-transfers-table">Recent Transfers Table</a><ul>
+<li><a class="reference internal" href="#column-description">Column Description</a></li>
+<li><a class="reference internal" href="#actions">Actions:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#biospecimen-management">Biospecimen Management</a><ul>
+<li><a class="reference internal" href="#registration">Registration</a><ul>
+<li><a class="reference internal" href="#registering-a-single-specimen-4-step-wizard">Registering a Single Specimen (4-Step Wizard)</a></li>
+<li><a class="reference internal" href="#click-register-biospecimen-step-1-basic-information">Click “Register Biospecimen” Step 1 — Basic Information</a></li>
+<li><a class="reference internal" href="#step-2-storage-location">Step 2 — Storage Location</a></li>
+<li><a class="reference internal" href="#step-3-metadata">Step 3 — Metadata</a></li>
+<li><a class="reference internal" href="#step-4-sample-files">Step 4 — Sample Files</a></li>
+<li><a class="reference internal" href="#viewing-registered-specimens">Viewing Registered Specimens</a></li>
+<li><a class="reference internal" href="#actions-1">Actions:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tracking-movement-disposal">Tracking (Movement &amp; Disposal)</a><ul>
+<li><a class="reference internal" href="#tab-based-layout">Tab-Based Layout</a></li>
+<li><a class="reference internal" href="#tab-shows">Tab Shows</a></li>
+<li><a class="reference internal" href="#tab-shows-1">Tab Shows</a></li>
+<li><a class="reference internal" href="#workflow-overview">Workflow Overview</a></li>
+<li><a class="reference internal" href="#requesting-a-specimen-movement">Requesting a Specimen Movement</a></li>
+<li><a class="reference internal" href="#partial-movement">Partial Movement</a></li>
+<li><a class="reference internal" href="#click-request-partial-movement">Click “Request Partial Movement”</a></li>
+<li><a class="reference internal" href="#disposal-request">Disposal Request</a></li>
+<li><a class="reference internal" href="#approving-rejecting-requests">Approving / Rejecting Requests</a></li>
+<li><a class="reference internal" href="#tracking-table-columns-column-description">Tracking Table Columns Column Description</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bulk-upload">Bulk Upload</a><ul>
+<li><a class="reference internal" href="#how-bulk-upload-works">How Bulk Upload Works</a></li>
+<li><a class="reference internal" href="#step-by-step-process-step-1-select-site">Step-by-Step Process Step 1 — Select Site</a></li>
+<li><a class="reference internal" href="#step-2-start-session">Step 2 — Start Session</a></li>
+<li><a class="reference internal" href="#step-3-download-template">Step 3 — Download Template</a></li>
+<li><a class="reference internal" href="#step-4-fill-and-upload-template">Step 4 — Fill and Upload Template</a></li>
+<li><a class="reference internal" href="#error-types">Error types:</a></li>
+<li><a class="reference internal" href="#step-6-confirm-and-import">Step 6 — Confirm and Import</a></li>
+<li><a class="reference internal" href="#step-7-success-summary">Step 7 — Success Summary</a></li>
+<li><a class="reference internal" href="#session-management">Session Management</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#attributes-configuration">Attributes (Configuration)</a><ul>
+<li><a class="reference internal" href="#category-types">Category Types</a></li>
+<li><a class="reference internal" href="#custom-fields">Custom Fields</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#storage-hierarchy">Storage Hierarchy</a><ul>
+<li><a class="reference internal" href="#hierarchy-overview">Hierarchy Overview</a></li>
+<li><a class="reference internal" href="#managing-the-hierarchy">Managing the Hierarchy</a><ul>
+<li><a class="reference internal" href="#regions">Regions</a></li>
+<li><a class="reference internal" href="#sites">Sites</a></li>
+<li><a class="reference internal" href="#site-types">Site Types:</a></li>
+<li><a class="reference internal" href="#code-type">Code Type</a></li>
+<li><a class="reference internal" href="#freezers">Freezers</a></li>
+<li><a class="reference internal" href="#racks">Racks</a></li>
+<li><a class="reference internal" href="#boxes">Boxes</a></li>
+<li><a class="reference internal" href="#position-templates">Position Templates</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cascading-filters">Cascading Filters</a></li>
+<li><a class="reference internal" href="#box-occupancy-grid">Box Occupancy Grid</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#user-management">User Management</a><ul>
+<li><a class="reference internal" href="#managing-users">Managing Users</a><ul>
+<li><a class="reference internal" href="#creating-a-new-user">Creating a New User</a></li>
+<li><a class="reference internal" href="#editing-user-information">Editing User Information</a></li>
+<li><a class="reference internal" href="#deactivating-a-user">Deactivating a User</a></li>
+<li><a class="reference internal" href="#unlocking-a-locked-account">Unlocking a Locked Account</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-roles">Managing Roles</a><ul>
+<li><a class="reference internal" href="#creating-a-role">Creating a Role</a></li>
+<li><a class="reference internal" href="#example-roles">Example Roles:</a></li>
+<li><a class="reference internal" href="#removing-roles-from-users">Removing Roles from Users</a></li>
+<li><a class="reference internal" href="#role-expiration">Role Expiration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#access-control">Access Control</a><ul>
+<li><a class="reference internal" href="#access-levels">Access Levels</a><ul>
+<li><a class="reference internal" href="#data-visibility">Data Visibility</a></li>
+<li><a class="reference internal" href="#actions-by-access-level-global-access-users-can">Actions by Access Level Global Access Users Can:</a></li>
+<li><a class="reference internal" href="#regional-access-users-can">Regional Access Users Can:</a></li>
+<li><a class="reference internal" href="#site-access-users-can">Site Access Users Can:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#assigning-access-levels">Assigning Access Levels</a></li>
+<li><a class="reference internal" href="#access-level-priority">Access Level Priority</a></li>
+<li><a class="reference internal" href="#permission-flags">Permission Flags</a><ul>
+<li><a class="reference internal" href="#how-permission-flags-work">How Permission Flags Work</a></li>
+<li><a class="reference internal" href="#permission-flag-categories-user-management-permissions">Permission Flag Categories User Management Permissions:</a></li>
+<li><a class="reference internal" href="#biospecimen-permissions">Biospecimen Permissions:</a></li>
+<li><a class="reference internal" href="#sample-level-permissions">Sample-Level Permissions:</a></li>
+<li><a class="reference internal" href="#permission-controls">Permission Controls</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#reporting-analytics">Reporting &amp; Analytics</a><ul>
+<li><a class="reference internal" href="#reports-dashboard">Reports Dashboard</a><ul>
+<li><a class="reference internal" href="#dashboard-metrics-card-top">Dashboard Metrics Card (Top):</a></li>
+<li><a class="reference internal" href="#filter-export-section">Filter &amp; Export Section:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sample-inventory-report">Sample Inventory Report</a><ul>
+<li><a class="reference internal" href="#table-columns">Table Columns:</a></li>
+<li><a class="reference internal" href="#interactive-charts">Interactive Charts:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#sample-movements-report">Sample Movements Report</a><ul>
+<li><a class="reference internal" href="#table-columns-1">Table Columns:</a></li>
+<li><a class="reference internal" href="#column-description-1">Column Description</a></li>
+<li><a class="reference internal" href="#interactive-charts-1">Interactive Charts:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#disposals-report">Disposals Report</a><ul>
+<li><a class="reference internal" href="#summary-cards">Summary Cards:</a></li>
+<li><a class="reference internal" href="#table-columns-2">Table Columns:</a></li>
+<li><a class="reference internal" href="#interactive-charts-2">Interactive Charts:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#freezer-utilization-report">Freezer Utilization Report</a></li>
+<li><a class="reference internal" href="#data-export">Data Export</a></li>
+<li><a class="reference internal" href="#scheduling-reports">Scheduling Reports</a></li>
+<li><a class="reference internal" href="#alerts-notifications">Alerts &amp; Notifications</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#activity-log-audit-trail">Activity Log &amp; Audit Trail</a><ul>
+<li><a class="reference internal" href="#audit-logs">Audit Logs</a><ul>
+<li><a class="reference internal" href="#viewing-audit-logs">Viewing Audit Logs</a></li>
+<li><a class="reference internal" href="#column-description-2">Column Description</a></li>
+<li><a class="reference internal" href="#filtering-audit-logs">Filtering Audit Logs</a></li>
+<li><a class="reference internal" href="#exporting-audit-logs">Exporting Audit Logs</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#chain-of-custody">Chain of Custody</a><ul>
+<li><a class="reference internal" href="#viewing-chain-of-custody">Viewing Chain of Custody</a></li>
+<li><a class="reference internal" href="#generating-custody-reports">Generating Custody Reports</a></li>
+<li><a class="reference internal" href="#click-generate-custody-report">Click “Generate Custody Report”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notifications">Notifications</a><ul>
+<li><a class="reference internal" href="#viewing-notifications">Viewing Notifications</a></li>
+<li><a class="reference internal" href="#notification-types">Notification Types</a></li>
+<li><a class="reference internal" href="#notification-priorities">Notification Priorities</a><ul>
+<li><a class="reference internal" href="#priority-meaning">Priority Meaning</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-notifications">Managing Notifications</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#profile-settings">Profile &amp; Settings</a><ul>
+<li><a class="reference internal" href="#personal-information">Personal Information</a></li>
+<li><a class="reference internal" href="#security-authentication">Security &amp; Authentication</a><ul>
+<li><a class="reference internal" href="#changing-your-password">Changing Your Password</a></li>
+<li><a class="reference internal" href="#click-update-password-password-requirements">Click “Update Password” Password Requirements:</a></li>
+<li><a class="reference internal" href="#two-factor-authentication-otp">Two-Factor Authentication (OTP)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#user-preferences">User Preferences</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#data-export-1">Data Export</a><ul>
+<li><a class="reference internal" href="#available-export-formats">Available Export Formats</a></li>
+<li><a class="reference internal" href="#export-process">Export Process</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#keyboard-shortcuts-tips">Keyboard Shortcuts &amp; Tips</a><ul>
+<li><a class="reference internal" href="#keyboard-shortcuts">Keyboard Shortcuts</a><ul>
+<li><a class="reference internal" href="#shortcut-action">Shortcut Action</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#navigation-tips">Navigation Tips</a></li>
+<li><a class="reference internal" href="#table-tips">Table Tips</a></li>
+<li><a class="reference internal" href="#form-tips">Form Tips</a></li>
+<li><a class="reference internal" href="#productivity-tips">Productivity Tips</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#support-help">Support &amp; Help</a><ul>
+<li><a class="reference internal" href="#getting-help">Getting Help</a></li>
+<li><a class="reference internal" href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#appendix-glossary">Appendix: Glossary</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">My documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Table of Contents</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/userguide.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="table-of-contents">
+<h1>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading"></a></h1>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#introduction-overview">Introduction &amp; Overview</a></p></li>
+<li><p><a class="reference external" href="#getting-started">Getting Started</a></p></li>
+<li><p><a class="reference external" href="#dashboard">Dashboard</a></p></li>
+<li><p><a class="reference external" href="#biospecimen-management">Biospecimen Management</a></p></li>
+<li><p><a class="reference external" href="#storage-hierarchy">Storage Hierarchy</a></p></li>
+<li><p><a class="reference external" href="#user-management">User Management</a></p></li>
+<li><p><a class="reference external" href="#access-control">Access Control</a></p></li>
+<li><p><a class="reference external" href="#reporting-analytics">Reporting &amp; Analytics</a></p></li>
+<li><p><a class="reference external" href="#activity-log-audit-trail">Activity Log &amp; Audit Trail</a></p></li>
+<li><p><a class="reference external" href="#notifications">Notifications</a></p></li>
+<li><p><a class="reference external" href="#profile-settings">Profile &amp; Settings</a></p></li>
+<li><p><a class="reference external" href="#data-export-1">Data Export</a></p></li>
+<li><p><a class="reference external" href="#keyboard-shortcuts-tips">Keyboard Shortcuts &amp; Tips</a></p></li>
+</ol>
+</section>
+<section id="introduction-overview">
+<h1>Introduction &amp; Overview<a class="headerlink" href="#introduction-overview" title="Link to this heading"></a></h1>
+<section id="what-is-iccare-biobank">
+<h2>What is iCCaRE Biobank?<a class="headerlink" href="#what-is-iccare-biobank" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>iCCaRE (Integrated Clinical Care and Research Environment) Biobank is
+a comprehensive web-based system designed to manage biological
+specimens and associated data for research purposes. The system
+provides:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Specimen Management</strong> — Register, track, and manage biosamples
+throughout their lifecycle</p></li>
+<li><p><strong>Storage Organization</strong> — Hierarchical storage structure from regions
+to individual freezer positions</p></li>
+<li><p><strong>Access Control</strong> — Role-based permissions with global, regional, or
+site-level access</p></li>
+<li><p><strong>Workflow Automation</strong> — Approval workflows for specimen movements,
+transfers, and disposals</p></li>
+<li><p><strong>Audit Trail</strong> — Complete chain of custody and activity logging for
+regulatory compliance</p></li>
+<li><p><strong>Reporting &amp; Analytics</strong> — Dashboard metrics, utilization reports,
+and data export capabilities</p></li>
+</ul>
+</section>
+<section id="key-capabilities">
+<h2>Key Capabilities<a class="headerlink" href="#key-capabilities" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Register specimens with a guided 4-step wizard and comprehensive
+metadata</p></li>
+<li><p>Track specimen movements between storage locations with approval
+workflows</p></li>
+<li><p>Manage storage infrastructure (regions, sites, freezers, racks, boxes)</p></li>
+<li><p>Control user access at global, regional, or site levels with
+fine-grained permission flags</p></li>
+<li><p>Monitor inventory with real-time dashboard and utilization metrics</p></li>
+<li><p>Generate audit reports for compliance and chain of custody</p></li>
+<li><p>Bulk import specimens via session-based Excel upload with site locking</p></li>
+<li><p>Dedicated report pages with interactive charts (bar, line, pie) for
+inventory, movements, and disposals</p></li>
+<li><p>Export data in multiple formats (CSV, Excel, JSON, PDF)</p></li>
+</ul>
+</section>
+<section id="system-requirements">
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Browser</strong>: Modern web browser (Chrome 90+, Firefox 88+, Safari 14+,
+Edge 90+)</p></li>
+<li><p><strong>Screen Resolution</strong>: Minimum 1280x720 pixels (1920x1080 recommended)</p></li>
+<li><p><strong>Internet</strong>: Stable internet connection required</p></li>
+<li><p><strong>Authentication</strong>: Email-based account with OTP verification support</p></li>
+</ul>
+</section>
+</section>
+<section id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h1>
+<section id="accessing-the-application">
+<h2>Accessing the Application<a class="headerlink" href="#accessing-the-application" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Navigate to the iCCaRE Biobank URL provided by your system
+administrator</p></li>
+<li><p>You will be redirected to the login page if not authenticated</p></li>
+</ol>
+</section>
+<section id="signing-up">
+<h2>Signing Up<a class="headerlink" href="#signing-up" title="Link to this heading"></a></h2>
+<section id="first-time-users">
+<h3>First-time users:<a class="headerlink" href="#first-time-users" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Click <strong>“Sign Up”</strong> on the login page</p></li>
+<li><p>Fill in the registration form:</p>
+<ul class="simple">
+<li><p>First Name and Last Name</p></li>
+<li><p>Email Address (will be your username)</p></li>
+<li><p>Password (must meet security requirements)</p></li>
+<li><p>Confirm Password</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Create Account”</strong></p></li>
+<li><p>Check your email for verification instructions</p></li>
+</ol>
+</section>
+</section>
+<section id="logging-in">
+<h2>Logging In<a class="headerlink" href="#logging-in" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Enter your <strong>Email</strong> and <strong>Password</strong></p></li>
+<li><p>Click <strong>“Sign In”</strong></p></li>
+<li><p>If OTP (One-Time Password) verification is enabled:</p>
+<ul class="simple">
+<li><p>Check your email for the verification code</p></li>
+<li><p>Enter the 6-digit code</p></li>
+<li><p>Click <strong>“Verify”</strong></p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="navigating-the-interface">
+<h2>Navigating the Interface<a class="headerlink" href="#navigating-the-interface" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>After successful login, you will see the main interface:</p>
+</div></blockquote>
+<section id="header-top-bar">
+<h3>Header (Top Bar)<a class="headerlink" href="#header-top-bar" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Search Bar</strong> — Global search for specimens (Ctrl+K / Cmd+K)</p></li>
+<li><p><strong>Notifications Icon</strong> — View recent alerts and messages</p></li>
+<li><p><strong>Profile Menu</strong> — Access settings, profile, and logout</p></li>
+</ul>
+</section>
+<section id="sidebar-left-panel">
+<h3>Sidebar (Left Panel)<a class="headerlink" href="#sidebar-left-panel" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Dashboard</strong> — Overview and metrics</p></li>
+<li><p><strong>Biospecimen</strong> — Registration, tracking, and bulk upload</p></li>
+<li><p><strong>Attributes</strong> — Configure storage locations and settings</p></li>
+<li><p><strong>User Management</strong> — Manage users and roles (admin only)</p></li>
+<li><p><strong>Reporting</strong> — Analytics, dedicated report pages, and exports</p></li>
+<li><p><strong>Activity Log</strong> — Audit trails and chain of custody</p></li>
+</ul>
+</section>
+<section id="main-content-area">
+<h3>Main Content Area<a class="headerlink" href="#main-content-area" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Displays the selected module’s content</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="dashboard">
+<h1>Dashboard<a class="headerlink" href="#dashboard" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p>The Dashboard provides an at-a-glance overview of your biobank
+inventory and activities.</p>
+</div></blockquote>
+<section id="overview-cards">
+<h2>Overview Cards<a class="headerlink" href="#overview-cards" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Four key metrics displayed at the top:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Total Specimens</strong> — Count of all registered specimens you have
+access to</p></li>
+<li><p><strong>Utilization Rate</strong> — Percentage of occupied storage positions</p></li>
+<li><p><strong>Active Alerts</strong> — Number of pending notifications (expiring samples,
+low temperature alerts)</p></li>
+<li><p><strong>Pending Transfers</strong> — Specimen movements awaiting approval</p></li>
+</ul>
+</section>
+<section id="freezer-capacity-chart">
+<h2>Freezer Capacity Chart<a class="headerlink" href="#freezer-capacity-chart" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Visual representation of storage utilization across all freezers:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Color-coded bars show capacity levels</p></li>
+<li><p>Green: &lt; 70% full</p></li>
+<li><p>Yellow: 70–90% full</p></li>
+<li><p>Red: &gt; 90% full</p></li>
+</ul>
+<blockquote>
+<div><p>Click on a freezer bar to view detailed occupancy.</p>
+</div></blockquote>
+</section>
+<section id="sample-inventory-trend">
+<h2>Sample Inventory Trend<a class="headerlink" href="#sample-inventory-trend" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Line graph showing specimen count over time:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Filter by date range (Last 7 days, Last 30 days, Last 90 days, Custom)</p></li>
+<li><p>Track inventory growth or reduction</p></li>
+</ul>
+</section>
+<section id="recent-transfers-table">
+<h2>Recent Transfers Table<a class="headerlink" href="#recent-transfers-table" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Displays the most recent specimen movements:</p>
+</div></blockquote>
+<section id="column-description">
+<h3>Column Description<a class="headerlink" href="#column-description" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Sample UUID Unique specimen identifier</p>
+<p>Source Location Origin (Freezer / Rack / Box / Position) Destination
+Location New location</p>
+<p>Movement Type Transfer, Disposal, or Partial Movement Status Pending,
+Approved, Completed, or Rejected Requested By User who submitted the
+request</p>
+<p>Date &amp; Time Timestamp of the request</p>
+</div></blockquote>
+</section>
+<section id="actions">
+<h3>Actions:<a class="headerlink" href="#actions" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Filter</strong> — By status, date range, or location</p></li>
+<li><p><strong>Export</strong> — Download transfer history as CSV or Excel</p></li>
+<li><p><strong>View Details</strong> — Click any row to see complete transfer information</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="biospecimen-management">
+<h1>Biospecimen Management<a class="headerlink" href="#biospecimen-management" title="Link to this heading"></a></h1>
+<section id="registration">
+<h2>Registration<a class="headerlink" href="#registration" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Register new specimens into the biobank.</p>
+</div></blockquote>
+<section id="registering-a-single-specimen-4-step-wizard">
+<h3>Registering a Single Specimen (4-Step Wizard)<a class="headerlink" href="#registering-a-single-specimen-4-step-wizard" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Registration uses a guided 4-step process. Progress is shown via step
+indicators at the top of the modal. You can navigate forward and
+backward between steps.</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Biospecimen &gt; Registration</strong></p></li>
+</ol>
+</section>
+<section id="click-register-biospecimen-step-1-basic-information">
+<h3>Click “Register Biospecimen” Step 1 — Basic Information<a class="headerlink" href="#click-register-biospecimen-step-1-basic-information" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Sample Category (select from dropdown)</p></li>
+<li><p>Sample Label</p></li>
+<li><p>Collection Date (required, YYYY-MM-DD format)</p></li>
+<li><p>Collection Time (optional, HH:MM:SS format)</p></li>
+<li><p>Researcher Info (required)</p></li>
+<li><p>Field Collector Info (required)</p></li>
+</ul>
+</section>
+<section id="step-2-storage-location">
+<h3>Step 2 — Storage Location<a class="headerlink" href="#step-2-storage-location" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Region &gt; Site &gt; Freezer &gt; Rack &gt; Box &gt; Position</p></li>
+<li><p>Use cascading dropdowns to navigate the hierarchy</p></li>
+<li><p>Position must be a valid, unoccupied grid cell</p></li>
+</ul>
+</section>
+<section id="step-3-metadata">
+<h3>Step 3 — Metadata<a class="headerlink" href="#step-3-metadata" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Initial Volume (optional, positive decimal)</p></li>
+<li><p>Current Volume (optional, must be less than or equal to initial
+volume)</p></li>
+<li><p>Volume Unit (ml, ul, g, mg, etc.)</p></li>
+<li><p>Additional attributes from the selected sample category template</p></li>
+</ul>
+</section>
+<section id="step-4-sample-files">
+<h3>Step 4 — Sample Files<a class="headerlink" href="#step-4-sample-files" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Upload file attachments (images, documents)</p></li>
+<li><p>Delete uploaded files if needed</p></li>
+<li><p>Supports multiple attachments</p></li>
+</ul>
+<ol class="arabic simple" start="3">
+<li><p>Click <strong>“Register”</strong> on the final step</p></li>
+<li><p>A confirmation message will appear, and the specimen is added to
+inventory</p></li>
+</ol>
+</section>
+<section id="viewing-registered-specimens">
+<h3>Viewing Registered Specimens<a class="headerlink" href="#viewing-registered-specimens" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Search</strong> — Use the search bar to find specimens by UUID, subject
+token, or metadata</p></li>
+<li><p><strong>Filter</strong> — Apply filters for category, location, date range, status</p></li>
+<li><p><strong>Sort</strong> — Click column headers to sort by any field</p></li>
+</ul>
+</section>
+<section id="actions-1">
+<span id="id1"></span><h3>Actions:<a class="headerlink" href="#actions-1" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>View</strong> — See complete specimen details</p></li>
+<li><p><strong>Edit</strong> — Update specimen metadata or location</p></li>
+<li><p><strong>Download</strong> — Export specimen data</p></li>
+</ul>
+</section>
+</section>
+<section id="tracking-movement-disposal">
+<h2>Tracking (Movement &amp; Disposal)<a class="headerlink" href="#tracking-movement-disposal" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Manage specimen movements, partial movements, and disposals through
+approval workflows.</p>
+</div></blockquote>
+<section id="tab-based-layout">
+<h3>Tab-Based Layout<a class="headerlink" href="#tab-based-layout" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>The Tracking page is organized into three tabs, each showing a count
+badge:</p>
+</div></blockquote>
+</section>
+<section id="tab-shows">
+<h3>Tab Shows<a class="headerlink" href="#tab-shows" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Pending Movement</strong> Movement requests awaiting approval</p>
+<p><strong>Pending Disposal</strong> Disposal requests awaiting approval</p>
+</div></blockquote>
+</section>
+<section id="tab-shows-1">
+<span id="id2"></span><h3>Tab Shows<a class="headerlink" href="#tab-shows-1" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Completed Movement</strong> Approved and completed movements</p>
+</div></blockquote>
+</section>
+<section id="workflow-overview">
+<h3>Workflow Overview<a class="headerlink" href="#workflow-overview" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>All tracking operations follow a 3-stage workflow:</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>1. SUBMIT
+REQUEST</p></th>
+<th class="head"><p>–&gt;</p></th>
+<th class="head"><p>2. APPROVE /
+REJECT</p></th>
+<th class="head"><p>–&gt;</p></th>
+<th class="head"><p>3.
+CONFIRM</p></th>
+<th class="head"><p>COMPLETION</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>(Requester)</p></td>
+<td></td>
+<td><p>(Approver)</p></td>
+<td></td>
+<td><p>(System</p></td>
+<td><p>/ Requester)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="requesting-a-specimen-movement">
+<h3>Requesting a Specimen Movement<a class="headerlink" href="#requesting-a-specimen-movement" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Biospecimen &gt; Tracking</strong></p></li>
+<li><p>Click <strong>“Request Movement”</strong></p></li>
+<li><p>Fill in the request form:</p>
+<ul class="simple">
+<li><p><strong>Sample</strong> — Select or enter specimen identifier</p></li>
+<li><p><strong>Movement Type</strong> — Transfer, Checkout, Return</p></li>
+<li><p><strong>Source Location</strong> — Current location (auto-filled)</p></li>
+<li><p><strong>Destination Location</strong> — Select new location</p></li>
+<li><p><strong>Description</strong> — Describe purpose of movement</p></li>
+<li><p><strong>Notes</strong> (optional)</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Submit Request”</strong></p></li>
+<li><p>Status changes to <strong>“Pending”</strong> — appears in the Pending Movement tab</p></li>
+</ol>
+</section>
+<section id="partial-movement">
+<h3>Partial Movement<a class="headerlink" href="#partial-movement" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>For splitting specimens (e.g., aliquoting):</p>
+</div></blockquote>
+</section>
+<section id="click-request-partial-movement">
+<h3>Click “Request Partial Movement”<a class="headerlink" href="#click-request-partial-movement" title="Link to this heading"></a></h3>
+<ol class="arabic simple" start="2">
+<li><p>Select movement type:</p>
+<ul class="simple">
+<li><p><strong>Position Split</strong> — Move part of sample to a different position</p></li>
+<li><p><strong>Volume Split</strong> — Divide sample volume</p></li>
+</ul>
+</li>
+<li><p>Enter split details (new position, volume/quantity)</p></li>
+<li><p>Submit for approval</p></li>
+</ol>
+</section>
+<section id="disposal-request">
+<h3>Disposal Request<a class="headerlink" href="#disposal-request" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>To mark specimens as used or disposed:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Click <strong>“Request Disposal”</strong> on the Tracking page</p></li>
+<li><p>Fill in:</p>
+<ul class="simple">
+<li><p>Sample UUID</p></li>
+<li><p>Reason for Disposal (Used in experiment, Degraded, Expired, etc.)</p></li>
+<li><p>Disposal Method (Incineration, Biohazard waste, etc.)</p></li>
+<li><p>Notes</p></li>
+</ul>
+</li>
+<li><p>Submit for approval</p></li>
+<li><p>Request appears in the <strong>Pending Disposal</strong> tab</p></li>
+</ol>
+</section>
+<section id="approving-rejecting-requests">
+<h3>Approving / Rejecting Requests<a class="headerlink" href="#approving-rejecting-requests" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>For users with approval permissions:</strong></p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to the <strong>Pending Movement</strong> or <strong>Pending Disposal</strong> tab</p></li>
+<li><p>Review the request details:</p>
+<ul class="simple">
+<li><p>Requester information</p></li>
+<li><p>Specimen details (serial number, label)</p></li>
+<li><p>Source and destination locations</p></li>
+<li><p>Requested date and description</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Approve”</strong> or <strong>“Reject”</strong></p></li>
+<li><p>If rejecting, provide a rejection reason</p></li>
+<li><p>Approved requests move to the <strong>Completed Movement</strong> tab</p></li>
+<li><p>Rejected requests are removed from the pending list</p></li>
+</ol>
+</section>
+<section id="tracking-table-columns-column-description">
+<h3>Tracking Table Columns Column Description<a class="headerlink" href="#tracking-table-columns-column-description" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Sample Serial number or label</p>
+<p>Source Location Current storage location (with pin icon) Destination
+Target location</p>
+<p>Requested Date When the request was submitted Approved Date When
+approved (if applicable) Requested By User who initiated the request
+Description Reason or notes for the movement</p>
+<p>Action Approve / Reject buttons (if you have permission)</p>
+</div></blockquote>
+</section>
+</section>
+<section id="bulk-upload">
+<h2>Bulk Upload<a class="headerlink" href="#bulk-upload" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Import multiple specimens at once using a session-based Excel upload
+process with site locking.</p>
+</div></blockquote>
+<section id="how-bulk-upload-works">
+<h3>How Bulk Upload Works<a class="headerlink" href="#how-bulk-upload-works" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Bulk upload uses a <strong>session-based workflow</strong> that temporarily locks
+a site to prevent conflicts during import. Only one bulk upload
+session can be active per site at a time.</p>
+</div></blockquote>
+</section>
+<section id="step-by-step-process-step-1-select-site">
+<h3>Step-by-Step Process Step 1 — Select Site<a class="headerlink" href="#step-by-step-process-step-1-select-site" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Biospecimen &gt; Bulk Upload</strong></p></li>
+<li><p>Select a <strong>Site</strong> from the dropdown</p></li>
+<li><p>The system checks if the site is already locked:</p>
+<ul class="simple">
+<li><p>If locked, you will see who locked it and when the lock expires</p></li>
+<li><p>If unlocked, you can proceed to start a session</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="step-2-start-session">
+<h3>Step 2 — Start Session<a class="headerlink" href="#step-2-start-session" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Click <strong>“Start Session”</strong></p></li>
+<li><p>A timed session is created and the site becomes <strong>locked</strong></p></li>
+<li><p>A <strong>session timer bar</strong> appears at the top showing remaining time</p>
+<ul class="simple">
+<li><p>The timer turns red when 5 minutes or less remain</p></li>
+<li><p>If the session expires, it is automatically cancelled</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="step-3-download-template">
+<h3>Step 3 — Download Template<a class="headerlink" href="#step-3-download-template" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Click <strong>“Download Template”</strong></p></li>
+<li><p>An Excel file is generated with:</p>
+<ul class="simple">
+<li><p>Pre-filled dropdown lists for sample category, freezer, rack, box,
+and volume unit</p></li>
+<li><p>Locked columns for site information</p></li>
+<li><p>16 data columns including collection date, volume, and free fields
+(JSON support)</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="step-4-fill-and-upload-template">
+<h3>Step 4 — Fill and Upload Template<a class="headerlink" href="#step-4-fill-and-upload-template" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fill in your specimen data in the downloaded Excel template</p></li>
+<li><p>Save the file (keep it in Excel format)</p></li>
+<li><p>Click <strong>“Upload File”</strong> and select your completed file</p></li>
+<li><p>The system validates all rows <strong>without creating any samples</strong>
+(validation-only phase)</p></li>
+<li><p>Maximum file size: <strong>10 MB Step 5 — Review Validation Results</strong></p></li>
+</ol>
+<blockquote>
+<div><p>If errors are found, they are displayed with row-level detail:</p>
+</div></blockquote>
+</section>
+<section id="error-types">
+<h3>Error types:<a class="headerlink" href="#error-types" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Validation errors</strong> — Missing required fields, invalid formats</p></li>
+<li><p><strong>Position conflicts</strong> — A storage position is already occupied</p></li>
+<li><p><strong>Duplicate serial numbers</strong> — Serial number already exists in the
+system</p></li>
+<li><p><strong>Missing references</strong> — Referenced freezer, rack, or box does not
+exist</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Skip options</strong> — You can choose to skip certain error types using
+checkboxes:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Skip rows with position conflicts</p></li>
+<li><p>Skip rows with duplicate serial numbers</p></li>
+<li><p>Skip rows with missing references</p></li>
+</ul>
+<blockquote>
+<div><p>If no errors are found, proceed directly to confirmation.</p>
+</div></blockquote>
+</section>
+<section id="step-6-confirm-and-import">
+<h3>Step 6 — Confirm and Import<a class="headerlink" href="#step-6-confirm-and-import" title="Link to this heading"></a></h3>
+<ol class="arabic simple" id="section-1">
+<li><p>Review the validation summary</p></li>
+<li><p>If you enabled skip options, rows with those error types will be
+excluded</p></li>
+<li><p>Click <strong>“Confirm Upload”</strong></p></li>
+<li><p>The system creates specimens for all valid rows</p></li>
+</ol>
+</section>
+<section id="step-7-success-summary">
+<h3>Step 7 — Success Summary<a class="headerlink" href="#step-7-success-summary" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>After a successful import, you will see:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Total rows processed</p></li>
+<li><p>Number of successfully created specimens</p></li>
+<li><p>Number of failed rows (if any)</p></li>
+<li><p>List of created serial numbers</p></li>
+</ul>
+</section>
+<section id="session-management">
+<h3>Session Management<a class="headerlink" href="#session-management" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Cancel Session</strong> — Click “Cancel Session” at any time to release the
+site lock without importing</p></li>
+<li><p><strong>Session Expiry</strong> — Sessions have a configurable timeout (default
+range: 10–480 minutes). Expired sessions are automatically cancelled.</p></li>
+<li><p><strong>Force Unlock (Admin)</strong> — Administrators can force-unlock a session
+if needed</p></li>
+</ul>
+</section>
+</section>
+<section id="attributes-configuration">
+<h2>Attributes (Configuration)<a class="headerlink" href="#attributes-configuration" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Configure system settings for specimen management.</p>
+</div></blockquote>
+<section id="category-types">
+<h3>Category Types<a class="headerlink" href="#category-types" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Define specimen categories (e.g., Blood, Tissue, DNA, RNA):</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Category Types</strong></p></li>
+<li><p>Click <strong>“Add Category Type”</strong></p></li>
+<li><p>Enter:</p>
+<ul class="simple">
+<li><p>Category Code (e.g., BLD, TIS)</p></li>
+<li><p>Category Name</p></li>
+<li><p>Expiration Days (default shelf life)</p></li>
+<li><p>Description</p></li>
+</ul>
+</li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="custom-fields">
+<h3>Custom Fields<a class="headerlink" href="#custom-fields" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Add custom metadata fields for specimens:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Custom Fields</strong></p></li>
+<li><p>Click <strong>“Create Custom Field”</strong></p></li>
+<li><p>Configure:</p>
+<ul class="simple">
+<li><p>Field Name (e.g., “Hemoglobin Level”, “Tumor Grade”)</p></li>
+<li><p>Field Type (Text, Number, Date, Dropdown)</p></li>
+<li><p>Required (Yes / No)</p></li>
+<li><p>Allowed Values (for dropdown types)</p></li>
+</ul>
+</li>
+<li><p>Save</p></li>
+</ol>
+<blockquote>
+<div><p>Custom fields will appear in the registration form.</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<section id="storage-hierarchy">
+<h1>Storage Hierarchy<a class="headerlink" href="#storage-hierarchy" title="Link to this heading"></a></h1>
+<section id="hierarchy-overview">
+<h2>Hierarchy Overview<a class="headerlink" href="#hierarchy-overview" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>iCCaRE uses a 6-level hierarchical storage structure:</p>
+</div></blockquote>
+</section>
+<section id="managing-the-hierarchy">
+<h2>Managing the Hierarchy<a class="headerlink" href="#managing-the-hierarchy" title="Link to this heading"></a></h2>
+<section id="regions">
+<h3>Regions<a class="headerlink" href="#regions" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Regions</strong></p></li>
+<li><p>Click <strong>“Add Region”</strong></p></li>
+<li><p>Enter:</p></li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="sites">
+<h3>Sites<a class="headerlink" href="#sites" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Region Code (e.g., NE for Northeast) Region Name</p>
+<p>Description</p>
+<p>Status (Active / Inactive)</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Sites</strong></p></li>
+<li><p>Click <strong>“Add Site”</strong></p></li>
+<li><p>Fill in:</p></li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="site-types">
+<h3>Site Types:<a class="headerlink" href="#site-types" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Site Name</p>
+<p>Region (select from dropdown) Site Type</p>
+<p>Location / Address</p>
+<p>Contact Information (Name, Email, Phone)</p>
+</div></blockquote>
+</section>
+<section id="code-type">
+<h3>Code Type<a class="headerlink" href="#code-type" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>LAB Laboratory</p>
+<p>CLN Clinic</p>
+<p>HSP Hospital</p>
+<p>UNV University</p>
+<p>RSC Research Center</p>
+</div></blockquote>
+</section>
+<section id="freezers">
+<h3>Freezers<a class="headerlink" href="#freezers" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Freezers</strong></p></li>
+<li><p>Click <strong>“Add Freezer”</strong></p></li>
+<li><p>Enter:</p></li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="racks">
+<h3>Racks<a class="headerlink" href="#racks" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Freezer Name / ID</p>
+<p>Site (select from dropdown) Temperature (e.g., -80 degrees C)
+Description</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Racks</strong></p></li>
+<li><p>Click <strong>“Add Rack”</strong></p></li>
+<li><p>Fill in:</p></li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="boxes">
+<h3>Boxes<a class="headerlink" href="#boxes" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Rack Name / ID</p>
+<p>Freezer (select from dropdown) Capacity (number of boxes) Description</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Boxes</strong></p></li>
+<li><p>Click <strong>“Add Box”</strong></p></li>
+<li><p>Configure:</p>
+<ul class="simple">
+<li><p>Box Name / ID</p></li>
+<li><p>Rack (select from dropdown)</p></li>
+<li><p>Position Template (defines grid layout)</p></li>
+<li><p>Box Type</p></li>
+<li><p>Manufacturer and Model (optional)</p></li>
+</ul>
+</li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="position-templates">
+<h3>Position Templates<a class="headerlink" href="#position-templates" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Templates define the grid layout of boxes (e.g., 9x9, 10x10):</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Attributes &gt; Templates</strong></p></li>
+<li><p>Click <strong>“Create Template”</strong></p></li>
+<li><p>Specify:</p>
+<ul class="simple">
+<li><p>Template Name</p></li>
+<li><p>Rows (e.g., 9)</p></li>
+<li><p>Columns (e.g., 9)</p></li>
+<li><p>Total Positions (auto-calculated: rows x columns)</p></li>
+</ul>
+</li>
+<li><p>Save</p></li>
+</ol>
+<blockquote>
+<div><p><strong>Common templates:</strong></p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Template</strong></p></th>
+<th class="head"><p><strong>Positions</strong></p></th>
+<th class="head"><p><strong>Use Case</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>9x9</p></td>
+<td><p>81</p></td>
+<td><p>Standard
+cryobox</p></td>
+</tr>
+<tr class="row-odd"><td><p>10x10</p></td>
+<td><p>100</p></td>
+<td><p>Large cryobox</p></td>
+</tr>
+<tr class="row-even"><td><p>8x12</p></td>
+<td><p>96</p></td>
+<td><p>Standard
+microplate
+layout</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="cascading-filters">
+<h2>Cascading Filters<a class="headerlink" href="#cascading-filters" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>When selecting storage locations, dropdowns cascade:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Select <strong>Region</strong> — Sites dropdown shows only sites in that region</p></li>
+<li><p>Select <strong>Site</strong> — Freezers dropdown shows only freezers at that site</p></li>
+<li><p>Select <strong>Freezer</strong> — Racks dropdown shows only racks in that freezer</p></li>
+<li><p>Select <strong>Rack</strong> — Boxes dropdown shows only boxes in that rack</p></li>
+<li><p>Select <strong>Box</strong> — Position grid appears showing occupancy</p></li>
+</ol>
+</section>
+<section id="box-occupancy-grid">
+<h2>Box Occupancy Grid<a class="headerlink" href="#box-occupancy-grid" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>View and manage specimen placement within boxes:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to a box via <strong>Attributes &gt; Boxes</strong> or through cascading
+filters</p></li>
+<li><p>Visual grid displays:</p>
+<ul class="simple">
+<li><p><strong>Green cells</strong> — Empty positions (available)</p></li>
+<li><p><strong>Red cells</strong> — Occupied positions</p></li>
+<li><p>Hover over occupied positions to see specimen UUID</p></li>
+</ul>
+</li>
+<li><p>Click on an empty position to register a specimen directly there</p></li>
+</ol>
+</section>
+</section>
+<section id="user-management">
+<h1>User Management<a class="headerlink" href="#user-management" title="Link to this heading"></a></h1>
+<section id="managing-users">
+<h2>Managing Users<a class="headerlink" href="#managing-users" title="Link to this heading"></a></h2>
+<section id="creating-a-new-user">
+<h3>Creating a New User<a class="headerlink" href="#creating-a-new-user" title="Link to this heading"></a></h3>
+<ol class="arabic simple" id="section-2">
+<li><p>Navigate to <strong>User Management &gt; Users</strong></p></li>
+<li><p>Click <strong>“Create User”</strong></p></li>
+<li><p>Fill in user details:</p>
+<ul class="simple">
+<li><p>Email (will be the username)</p></li>
+<li><p>First Name</p></li>
+<li><p>Last Name</p></li>
+<li><p>Password (temporary — user should change on first login)</p></li>
+</ul>
+</li>
+<li><p>Assign access level (see <a class="reference external" href="#access-control">Access Control</a>):</p>
+<ul class="simple">
+<li><p>Global Access</p></li>
+<li><p>Regional Access (select regions)</p></li>
+<li><p>Site Access (select sites)</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Create User”</strong></p></li>
+<li><p>User receives activation email</p></li>
+</ol>
+</section>
+<section id="editing-user-information">
+<h3>Editing User Information<a class="headerlink" href="#editing-user-information" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Click the <strong>Edit</strong> icon next to the user</p></li>
+<li><p>Update fields as needed:</p>
+<ul class="simple">
+<li><p>Name</p></li>
+<li><p>Email</p></li>
+<li><p>Access level</p></li>
+<li><p>Assigned regions / sites</p></li>
+</ul>
+</li>
+<li><p>Save changes</p></li>
+</ol>
+</section>
+<section id="deactivating-a-user">
+<h3>Deactivating a User<a class="headerlink" href="#deactivating-a-user" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Click the <strong>Deactivate</strong> button next to the user</p></li>
+<li><p>Confirm deactivation</p></li>
+<li><p>User can no longer log in (but data is preserved)</p></li>
+</ol>
+</section>
+<section id="unlocking-a-locked-account">
+<h3>Unlocking a Locked Account<a class="headerlink" href="#unlocking-a-locked-account" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>If a user is locked due to failed login attempts:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Find the user in the list</p></li>
+<li><p>Click <strong>“Unlock Account”</strong></p></li>
+<li><p>User can immediately attempt to log in again</p></li>
+</ol>
+</section>
+</section>
+<section id="managing-roles">
+<h2>Managing Roles<a class="headerlink" href="#managing-roles" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Roles define what actions users can perform in the system.</p>
+</div></blockquote>
+<section id="creating-a-role">
+<h3>Creating a Role<a class="headerlink" href="#creating-a-role" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>User Management &gt; Roles</strong></p></li>
+<li><p>Click <strong>“Create Role”</strong></p></li>
+<li><p>Configure role properties:</p>
+<ul class="simple">
+<li><p><strong>Role Type</strong> — Descriptive name (e.g., “Lab Manager”, “Data
+Entry”, “Viewer”)</p></li>
+<li><p><strong>Role Function</strong> — Module or feature (e.g., “Specimen Management”,
+“User Management”)</p></li>
+<li><p><strong>Function Rights</strong> — CRUD permissions:</p>
+<ul>
+<li><p><strong>C</strong> — Create</p></li>
+<li><p><strong>R</strong> — Read</p></li>
+<li><p><strong>U</strong> — Update</p></li>
+<li><p><strong>D</strong> — Delete</p></li>
+</ul>
+</li>
+<li><p><strong>Expiration Date</strong> (optional) — Role auto-revokes on this date</p></li>
+<li><p><strong>Status</strong> — Enabled / Disabled</p></li>
+</ul>
+</li>
+<li><p>Save the role</p></li>
+</ol>
+</section>
+<section id="example-roles">
+<h3>Example Roles:<a class="headerlink" href="#example-roles" title="Link to this heading"></a></h3>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Role
+Type</strong></p></th>
+<th class="head"><p><strong>Function
+Rights</strong></p></th>
+<th class="head"><p><strong>Typical Use Case</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Lab
+Manager</p></td>
+<td><p>CRUD (all)</p></td>
+<td><p>Full control over
+specimens</p></td>
+</tr>
+<tr class="row-odd"><td><p>Data Entry
+Clerk</p></td>
+<td><p>CR (create,
+read only)</p></td>
+<td><p>Register specimens,
+view data</p></td>
+</tr>
+<tr class="row-even"><td><p>Auditor</p></td>
+<td><p>R (read
+only)</p></td>
+<td><p>View audit logs and
+reports</p></td>
+</tr>
+<tr class="row-odd"><td><p>Approver</p></td>
+<td><p>RU (read,
+update)</p></td>
+<td><p>Approve/reject
+movement requests</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><p><strong>Assigning Roles to Users</strong></p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>User Management &gt; Users</strong></p></li>
+<li><p>Click <strong>“Assign Role”</strong> next to a user</p></li>
+<li><p>Select one or more roles from the dropdown</p></li>
+<li><p>Click <strong>“Assign”</strong></p></li>
+<li><p>User immediately gains the permissions</p></li>
+</ol>
+</section>
+<section id="removing-roles-from-users">
+<h3>Removing Roles from Users<a class="headerlink" href="#removing-roles-from-users" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Click <strong>“Manage Roles”</strong> next to a user</p></li>
+<li><p>Click the remove icon next to the role</p></li>
+<li><p>Confirm removal</p></li>
+<li><p>Permissions are immediately revoked</p></li>
+</ol>
+</section>
+<section id="role-expiration">
+<h3>Role Expiration<a class="headerlink" href="#role-expiration" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Roles with expiration dates automatically revoke on the specified
+date. Users receive a notification before expiration.</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<section id="access-control">
+<h1>Access Control<a class="headerlink" href="#access-control" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p>iCCaRE implements a hierarchical access control system to ensure
+users only see and manage data they are authorized to access.</p>
+</div></blockquote>
+<section id="access-levels">
+<h2>Access Levels<a class="headerlink" href="#access-levels" title="Link to this heading"></a></h2>
+<table class="docutils align-default" id="section-3">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Access
+Level</strong></p></th>
+<th class="head"><p><strong>Scope</strong></p></th>
+<th class="head"><p><strong>What Users See</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Global</strong></p></td>
+<td><p>All regions, sites,
+and specimens</p></td>
+<td><p>Entire biobank inventory
+across all locations</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Regional</strong></p></td>
+<td><p>Specific region(s)
+and their sites</p></td>
+<td><p>Only specimens in assigned
+regions</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Site</strong></p></td>
+<td><p>Specific site(s)
+only</p></td>
+<td><p>Only specimens at assigned
+sites</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="2">
+<li><p>How Access Level Affects the System</p></li>
+</ol>
+<section id="data-visibility">
+<h3>Data Visibility<a class="headerlink" href="#data-visibility" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Specimens:</strong> You only see specimens stored in locations you have
+access to</p></li>
+<li><p><strong>Dropdowns:</strong> Region / Site dropdowns only show your accessible
+locations</p></li>
+<li><p><strong>Dashboard:</strong> Metrics reflect only your accessible data</p></li>
+<li><p><strong>Reports:</strong> Exports include only data within your access scope</p></li>
+</ul>
+</section>
+<section id="actions-by-access-level-global-access-users-can">
+<h3>Actions by Access Level Global Access Users Can:<a class="headerlink" href="#actions-by-access-level-global-access-users-can" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Register specimens at any site</p></li>
+<li><p>Move specimens between any locations</p></li>
+<li><p>Create / edit / delete any storage locations</p></li>
+<li><p>Manage all users and roles</p></li>
+<li><p>View all audit logs</p></li>
+</ul>
+</section>
+<section id="regional-access-users-can">
+<h3>Regional Access Users Can:<a class="headerlink" href="#regional-access-users-can" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Register specimens at sites within their assigned regions</p></li>
+<li><p>Move specimens within their assigned regions</p></li>
+<li><p>View storage locations in their regions</p></li>
+<li><p>View audit logs for their regions</p></li>
+</ul>
+</section>
+<section id="site-access-users-can">
+<h3>Site Access Users Can:<a class="headerlink" href="#site-access-users-can" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Register specimens at their assigned sites only</p></li>
+<li><p>Move specimens within their assigned sites only</p></li>
+<li><p>View storage locations at their sites</p></li>
+<li><p>View audit logs for their sites</p></li>
+</ul>
+</section>
+</section>
+<section id="assigning-access-levels">
+<h2>Assigning Access Levels<a class="headerlink" href="#assigning-access-levels" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>System administrators assign access levels when creating or editing
+users:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>User Management &gt; Users</strong></p></li>
+<li><p>Click <strong>“Edit”</strong> next to a user</p></li>
+<li><p>Select <strong>Access Level</strong>:</p>
+<ul class="simple">
+<li><p><strong>Global</strong> — No further selection needed</p></li>
+<li><p><strong>Regional</strong> — Select one or more regions</p></li>
+<li><p><strong>Site</strong> — Select one or more sites</p></li>
+</ul>
+</li>
+<li><p>Save</p></li>
+</ol>
+</section>
+<section id="access-level-priority">
+<h2>Access Level Priority<a class="headerlink" href="#access-level-priority" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>If a user is assigned multiple access types, the system prioritizes:</p>
+<p><strong>Global &gt; Regional &gt; Site</strong></p>
+<p>Example: If a user has both Global and Site access assignments,
+Global takes precedence, and the user has full access.</p>
+</div></blockquote>
+</section>
+<section id="permission-flags">
+<h2>Permission Flags<a class="headerlink" href="#permission-flags" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>In addition to access levels, iCCaRE uses <strong>permission flags</strong> to
+control which features, menu items, and action buttons are visible to
+each user. Permission flags follow a fail-closed security model — by
+default, all flags are disabled until explicitly granted by an
+administrator.</p>
+</div></blockquote>
+<section id="how-permission-flags-work">
+<h3>How Permission Flags Work<a class="headerlink" href="#how-permission-flags-work" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Permission flags are <strong>separate from access levels</strong> — a user needs
+both the right access level (Global/Regional/Site) and the right
+permission flags to perform actions</p></li>
+<li><p>They control <strong>menu visibility</strong> (sidebar items appear/disappear),
+<strong>button visibility</strong> (action buttons show/hide), and <strong>page access</strong>
+(unauthorized pages redirect to Dashboard)</p></li>
+<li><p>Flags are synced automatically when you log in or when your token
+refreshes</p></li>
+</ul>
+</section>
+<section id="permission-flag-categories-user-management-permissions">
+<h3>Permission Flag Categories User Management Permissions:<a class="headerlink" href="#permission-flag-categories-user-management-permissions" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Permission Controls</strong></p>
+<p>Manage Users Visibility of the Users menu and user CRUD Manage Roles
+Visibility of the Roles menu and role CRUD</p>
+</div></blockquote>
+</section>
+<section id="biospecimen-permissions">
+<h3>Biospecimen Permissions:<a class="headerlink" href="#biospecimen-permissions" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Permission Controls</strong></p>
+<p>Manage Samples Access to Registration, Tracking, and Bulk Upload
+pages Manage Storage Access to storage hierarchy management
+(freezers, racks, boxes) Manage Regions Access to region management</p>
+</div></blockquote>
+</section>
+<section id="sample-level-permissions">
+<h3>Sample-Level Permissions:<a class="headerlink" href="#sample-level-permissions" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Permission Controls</strong></p>
+</div></blockquote>
+</section>
+<section id="permission-controls">
+<h3>Permission Controls<a class="headerlink" href="#permission-controls" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Can Create “Register Biospecimen” button visibility</p>
+<p>Can Read Sample list and detail visibility</p>
+<p>Can Update Edit button on samples</p>
+<p>Can Delete Delete attachments</p>
+<p>Can Request Disposal “Request Disposal” button on Tracking page Can
+Approve Disposal Approve/Reject buttons on disposal requests</p>
+<p>Can Request Tracking “Request Movement” and “Request Partial
+Movement” buttons Can Approve Tracking Approve/Reject buttons on
+movement requests</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+<section id="reporting-analytics">
+<h1>Reporting &amp; Analytics<a class="headerlink" href="#reporting-analytics" title="Link to this heading"></a></h1>
+<section id="reports-dashboard">
+<h2>Reports Dashboard<a class="headerlink" href="#reports-dashboard" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>The main Reports page serves as a central hub for data export, report
+scheduling, and alert management.</p>
+</div></blockquote>
+<section id="dashboard-metrics-card-top">
+<h3>Dashboard Metrics Card (Top):<a class="headerlink" href="#dashboard-metrics-card-top" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Total Records</strong> — Count of all data records</p></li>
+<li><p><strong>New Records (24h)</strong> — Records added in the last 24 hours</p></li>
+<li><p><strong>Data Quality Score</strong> — Percentage indicating data completeness</p></li>
+<li><p><strong>Scope</strong> and <strong>Last Updated</strong> timestamp</p></li>
+</ul>
+</section>
+<section id="filter-export-section">
+<h3>Filter &amp; Export Section:<a class="headerlink" href="#filter-export-section" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting</strong></p></li>
+<li><p>Select datasets to include: Samples, Workflows, Freezer Inventory,
+Alerts, Audit Logs, Utilization Metrics, Chain of Custody</p></li>
+<li><p>Optionally filter by Site and Freezer</p></li>
+<li><p>Available actions:</p>
+<ul class="simple">
+<li><p><strong>Refresh Dashboard</strong> — Reload dashboard metrics</p></li>
+<li><p><strong>Export Data</strong> — Opens format selection modal (Excel, CSV, JSON)</p></li>
+<li><p><strong>Schedule Report</strong> — Configure automated reports</p></li>
+<li><p><strong>Check &amp; Notify Alerts</strong> — Check threshold-based alerts</p></li>
+<li><p><strong>Check Utilization</strong> — View freezer capacity (appears when a
+freezer is selected)</p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p><strong>Freezer Utilization Display:</strong> When a freezer is selected, a
+utilization panel shows:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Total Capacity (units)</p></li>
+<li><p>Units Used</p></li>
+<li><p>Utilization Percentage — Color-coded: Green (&lt; 50%), Yellow (50–74%),
+Orange (75–89%), Red (90%+)</p></li>
+</ul>
+</section>
+</section>
+<section id="sample-inventory-report">
+<h2>Sample Inventory Report<a class="headerlink" href="#sample-inventory-report" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Dedicated report page for viewing specimen status, distribution, and
+volume tracking.</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting &gt; Sample Inventory</strong></p></li>
+<li><p><strong>Filters:</strong> Date range, Region, Site, Status (active, awaiting,
+disposed, depleted)</p></li>
+</ol>
+<section id="table-columns">
+<h3>Table Columns:<a class="headerlink" href="#table-columns" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Column Description</strong></p>
+<p>Sample ID UUID or serial number</p>
+<p>Site Site name</p>
+<p>Status Color-coded badge (active, awaiting, disposed, depleted)
+Storage Location Formatted as Freezer / Rack / Box</p>
+<p>Initial Volume (mL) Original volume collected Current Volume (mL)
+Remaining volume</p>
+<p>Volume Remaining Visual progress bar with percentage (green &gt;= 50%,
+orange 20–50%, red &lt; 20%) Alert “Low” warning if volume falls below
+20%</p>
+</div></blockquote>
+</section>
+<section id="interactive-charts">
+<h3>Interactive Charts:<a class="headerlink" href="#interactive-charts" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Bar Chart</strong> — Samples by status (active / awaiting / disposed /
+depleted)</p></li>
+<li><p><strong>Pie Chart</strong> — Sample distribution by site</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Export:</strong> Excel, CSV, or JSON</p>
+</div></blockquote>
+</section>
+</section>
+<section id="sample-movements-report">
+<h2>Sample Movements Report<a class="headerlink" href="#sample-movements-report" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Dedicated report page consolidating full movements, partial
+movements, and disposals.</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting &gt; Sample Movements</strong></p></li>
+<li><p><strong>Filters:</strong> Date range, Region, Site, Movement type (partial, full,
+disposal)</p></li>
+</ol>
+<section id="table-columns-1">
+<span id="id3"></span><h3>Table Columns:<a class="headerlink" href="#table-columns-1" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Column Description</strong> Movement ID Request identifier Sample ID
+Serial number or UUID</p>
+<p>Type Color-coded badge — Partial (blue), Full (green), Disposal (red)
+Source Location Origin location hierarchy</p>
+<p>Destination Target location or “Disposed” Requested Date When the
+request was submitted</p>
+</div></blockquote>
+</section>
+<section id="column-description-1">
+<span id="id4"></span><h3>Column Description<a class="headerlink" href="#column-description-1" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Requested By User who initiated the movement</p>
+<p>Status Pending, Approved, Completed, or Rejected</p>
+</div></blockquote>
+</section>
+<section id="interactive-charts-1">
+<span id="id5"></span><h3>Interactive Charts:<a class="headerlink" href="#interactive-charts-1" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Bar Chart</strong> — Count of movements by type (partial, full, disposal)</p></li>
+<li><p><strong>Line Chart</strong> — Movements over time with separate lines per type</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Export:</strong> Excel, CSV, or JSON</p>
+</div></blockquote>
+</section>
+</section>
+<section id="disposals-report">
+<h2>Disposals Report<a class="headerlink" href="#disposals-report" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Dedicated report page for tracking specimen disposals by reason,
+volume, and approval status.</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting &gt; Disposals</strong></p></li>
+<li><p><strong>Filters:</strong> Date range, Region, Site, Disposal status (approved,
+pending, completed, rejected)</p></li>
+</ol>
+<section id="summary-cards">
+<h3>Summary Cards:<a class="headerlink" href="#summary-cards" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Total Disposals</strong> — Overall count</p></li>
+<li><p><strong>Approved</strong> — Includes completed and confirmed</p></li>
+<li><p><strong>Pending Approvals</strong> — Awaiting approval (highlighted in orange)</p></li>
+</ul>
+</section>
+<section id="table-columns-2">
+<span id="id6"></span><h3>Table Columns:<a class="headerlink" href="#table-columns-2" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p><strong>Column Description</strong></p>
+<p>Disposal ID Request identifier</p>
+<p>Sample ID Serial number or UUID</p>
+<p>Reason Reason for disposal</p>
+<p>Volume (mL) Volume disposed (2 decimal places) Site Site name</p>
+<p>Requested Date Formatted date</p>
+<p>Approved Date Date approved (blank if pending) Requested By User who
+requested disposal Approved By Approver name (or dash if pending)
+Status Color-coded badge</p>
+</div></blockquote>
+</section>
+<section id="interactive-charts-2">
+<span id="id7"></span><h3>Interactive Charts:<a class="headerlink" href="#interactive-charts-2" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Pie Chart</strong> — Disposals by reason (color-coded breakdown)</p></li>
+<li><p><strong>Line Chart</strong> — Disposal volume over time</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Export:</strong> Excel, CSV, or JSON</p>
+</div></blockquote>
+</section>
+</section>
+<section id="freezer-utilization-report">
+<h2>Freezer Utilization Report<a class="headerlink" href="#freezer-utilization-report" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Monitor storage capacity:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting &gt; Utilization</strong> or select a freezer on the
+Reports Dashboard</p></li>
+<li><p>View utilization by Freezer, Rack, or Box</p></li>
+<li><p>Color-coded indicators:</p>
+<ul class="simple">
+<li><p>Green: &lt; 50% full</p></li>
+<li><p>Yellow: 50–74% full</p></li>
+<li><p>Orange: 75–89% full</p></li>
+<li><p>Red: 90%+ full (action recommended) Export utilization data as CSV
+or Excel.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="data-export">
+<h2>Data Export<a class="headerlink" href="#data-export" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Export specimen data for external analysis:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting</strong></p></li>
+<li><p>Select datasets to export (Samples, Workflows, Freezer Inventory,
+etc.)</p></li>
+<li><p>Optionally filter by Site and Freezer</p></li>
+<li><p>Click <strong>“Export Data”</strong></p></li>
+<li><p>Choose format: <strong>Excel</strong>, <strong>CSV</strong>, or <strong>JSON</strong></p></li>
+<li><p>File downloads to your computer</p></li>
+</ol>
+</section>
+<section id="scheduling-reports">
+<h2>Scheduling Reports<a class="headerlink" href="#scheduling-reports" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Automate regular reports:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting</strong></p></li>
+<li><p>Click <strong>“Schedule Report”</strong></p></li>
+<li><p>Configure:</p>
+<ul class="simple">
+<li><p>Report Name</p></li>
+<li><p>Frequency (Daily, Weekly, Monthly)</p></li>
+<li><p>Recipient Emails</p></li>
+<li><p>Recipient Roles</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Schedule”</strong></p></li>
+</ol>
+</section>
+<section id="alerts-notifications">
+<h2>Alerts &amp; Notifications<a class="headerlink" href="#alerts-notifications" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Configure threshold-based alerts:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Reporting</strong></p></li>
+<li><p>Click <strong>“Check &amp; Notify Alerts”</strong></p></li>
+<li><p>Fill in:</p>
+<ul class="simple">
+<li><p>Item Name</p></li>
+<li><p>Units</p></li>
+<li><p>Threshold Value</p></li>
+<li><p>Current Value</p></li>
+<li><p>Admin Notes</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Check &amp; Notify”</strong></p></li>
+</ol>
+<blockquote>
+<div><p>If the threshold is exceeded, an alert is triggered and a
+notification is sent. The alert response shows the Alert ID, item
+details, current vs. threshold values, and notification status.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="activity-log-audit-trail">
+<h1>Activity Log &amp; Audit Trail<a class="headerlink" href="#activity-log-audit-trail" title="Link to this heading"></a></h1>
+<section id="audit-logs">
+<h2>Audit Logs<a class="headerlink" href="#audit-logs" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Complete record of all system activities for compliance and
+troubleshooting.</p>
+</div></blockquote>
+<section id="viewing-audit-logs">
+<h3>Viewing Audit Logs<a class="headerlink" href="#viewing-audit-logs" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Activity Log &gt; Audit Logs</strong></p></li>
+<li><p>The table displays:</p></li>
+</ol>
+</section>
+<section id="column-description-2">
+<span id="id8"></span><h3>Column Description<a class="headerlink" href="#column-description-2" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Timestamp Date and time of the action User Who performed the action</p>
+<p>Action Type CREATE, UPDATE, DELETE, LOGIN, APPROVE, REJECT</p>
+<p>Affected Entity Specimen UUID, User ID, Location ID Details
+Description of the action</p>
+<p>IP Address Origin of the request</p>
+</div></blockquote>
+</section>
+<section id="filtering-audit-logs">
+<h3>Filtering Audit Logs<a class="headerlink" href="#filtering-audit-logs" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Use filters to narrow results:</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>User</strong> — Select specific user(s)</p></li>
+<li><p><strong>Action Type</strong> — CREATE, UPDATE, DELETE, LOGIN, LOGOUT, APPROVE,
+REJECT</p></li>
+<li><p><strong>Date Range</strong> — From / To dates</p></li>
+<li><p><strong>Entity Type</strong> — Specimen, User, Location, Role</p></li>
+<li><p><strong>Search</strong> — Keyword search in details</p></li>
+</ul>
+</section>
+<section id="exporting-audit-logs">
+<h3>Exporting Audit Logs<a class="headerlink" href="#exporting-audit-logs" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Apply desired filters</p></li>
+<li><p>Click <strong>“Export Audit Logs”</strong></p></li>
+<li><p>Select format: <strong>CSV</strong>, <strong>PDF</strong>, or <strong>JSON</strong></p></li>
+<li><p>Download file</p></li>
+</ol>
+</section>
+</section>
+<section id="chain-of-custody">
+<h2>Chain of Custody<a class="headerlink" href="#chain-of-custody" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Track complete movement history for individual specimens.</p>
+</div></blockquote>
+<section id="viewing-chain-of-custody">
+<h3>Viewing Chain of Custody<a class="headerlink" href="#viewing-chain-of-custody" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Activity Log &gt; Chain of Custody</strong></p></li>
+<li><p>Search for a specimen by UUID</p></li>
+<li><p>View complete custody timeline:</p>
+<ul class="simple">
+<li><p><strong>RECEIVED</strong> — Initial registration</p></li>
+<li><p><strong>STORED</strong> — Placed in storage location</p></li>
+<li><p><strong>TRANSFERRED</strong> — Moved between locations</p></li>
+<li><p><strong>ANALYZED</strong> — Used in experiment or test</p></li>
+<li><p><strong>DISPOSED</strong> — End of lifecycle Each event includes:</p></li>
+</ul>
+</li>
+</ol>
+<ul class="simple">
+<li><p>Timestamp</p></li>
+<li><p>User responsible</p></li>
+<li><p>Source and destination</p></li>
+<li><p>Reason / notes</p></li>
+<li><p>Digital signature (if configured)</p></li>
+</ul>
+</section>
+<section id="generating-custody-reports">
+<h3>Generating Custody Reports<a class="headerlink" href="#generating-custody-reports" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Enter specimen UUID</p></li>
+</ol>
+</section>
+<section id="click-generate-custody-report">
+<h3>Click “Generate Custody Report”<a class="headerlink" href="#click-generate-custody-report" title="Link to this heading"></a></h3>
+<ol class="arabic simple" start="3">
+<li><p>Report includes:</p>
+<ul class="simple">
+<li><p>Specimen details</p></li>
+<li><p>Complete custody history</p></li>
+<li><p>All locations visited</p></li>
+<li><p>All users who handled the specimen</p></li>
+<li><p>Digital signatures</p></li>
+</ul>
+</li>
+<li><p>Export as PDF for documentation</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="notifications">
+<h1>Notifications<a class="headerlink" href="#notifications" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p>Stay informed about important system events and alerts.</p>
+</div></blockquote>
+<section id="viewing-notifications">
+<h2>Viewing Notifications<a class="headerlink" href="#viewing-notifications" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Click the <strong>Notification Bell</strong> icon in the header</p></li>
+<li><p>Notification panel opens, showing:</p>
+<ul class="simple">
+<li><p>Notification message</p></li>
+<li><p>Timestamp</p></li>
+<li><p>Priority level</p></li>
+<li><p>Read / Unread status</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="notification-types">
+<h2>Notification Types<a class="headerlink" href="#notification-types" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Inventory Alerts</strong> — Low stock, high utilization, expiring specimens</p></li>
+<li><p><strong>Transfer Notifications</strong> — Movement requests pending your approval</p></li>
+<li><p><strong>System Alerts</strong> — Temperature warnings, system maintenance</p></li>
+<li><p><strong>User Notifications</strong> — Account changes, role assignments</p></li>
+</ul>
+</section>
+<section id="notification-priorities">
+<h2>Notification Priorities<a class="headerlink" href="#notification-priorities" title="Link to this heading"></a></h2>
+<section id="priority-meaning">
+<h3>Priority Meaning<a class="headerlink" href="#priority-meaning" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Normal Informational, no immediate action required High Attention
+needed, action recommended Urgent Immediate action required (critical
+alert)</p>
+</div></blockquote>
+</section>
+</section>
+<section id="managing-notifications">
+<h2>Managing Notifications<a class="headerlink" href="#managing-notifications" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Mark as Read</strong> — Click on a notification to mark it as read, or
+click <strong>“Mark All as Read”</strong></p></li>
+<li><p><strong>Filter</strong> — Toggle between All, Unread Only, or filter by type</p></li>
+<li><p><strong>Unread Count</strong> — Red badge on notification icon shows count of
+unread notifications</p></li>
+</ul>
+</section>
+</section>
+<section id="profile-settings">
+<h1>Profile &amp; Settings<a class="headerlink" href="#profile-settings" title="Link to this heading"></a></h1>
+<section id="personal-information">
+<h2>Personal Information<a class="headerlink" href="#personal-information" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Update your profile details:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Click your <strong>Profile Icon</strong> in the header</p></li>
+<li><p>Select <strong>“Profile”</strong></p></li>
+<li><p>Edit fields:</p>
+<ul class="simple">
+<li><p>First Name</p></li>
+<li><p>Last Name</p></li>
+<li><p>Phone Number</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Save Changes”</strong></p></li>
+</ol>
+</section>
+<section id="security-authentication">
+<h2>Security &amp; Authentication<a class="headerlink" href="#security-authentication" title="Link to this heading"></a></h2>
+<section id="changing-your-password">
+<h3>Changing Your Password<a class="headerlink" href="#changing-your-password" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Profile &gt; Security</strong></p></li>
+<li><p>Click <strong>“Change Password”</strong></p></li>
+<li><p>Enter:</p></li>
+</ol>
+<blockquote>
+<div><p><img alt="image1" src="media/image30.png" /> Current Password</p>
+<p><img alt="image2" src="media/image31.png" /> New Password (must meet requirements)</p>
+<p><img alt="image3" src="media/image32.png" /> Confirm New Password</p>
+</div></blockquote>
+</section>
+<section id="click-update-password-password-requirements">
+<h3>Click “Update Password” Password Requirements:<a class="headerlink" href="#click-update-password-password-requirements" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Minimum 8 characters</p></li>
+<li><p>At least one uppercase letter</p></li>
+<li><p>At least one lowercase letter</p></li>
+<li><p>At least one number</p></li>
+<li><p>At least one special character</p></li>
+</ul>
+</section>
+<section id="two-factor-authentication-otp">
+<h3>Two-Factor Authentication (OTP)<a class="headerlink" href="#two-factor-authentication-otp" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Enable OTP for enhanced security:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Profile &gt; Security</strong></p></li>
+<li><p>Toggle <strong>“Enable OTP Verification”</strong></p></li>
+<li><p>On next login, you will receive a verification code via email</p></li>
+</ol>
+</section>
+</section>
+<section id="user-preferences">
+<h2>User Preferences<a class="headerlink" href="#user-preferences" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>Customize your experience:</p>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Navigate to <strong>Profile &gt; Preferences</strong></p></li>
+<li><p>Configure:</p>
+<ul class="simple">
+<li><p><strong>Timezone</strong> — Select your local timezone for accurate timestamps</p></li>
+<li><p><strong>Language</strong> — Select interface language (if available)</p></li>
+<li><p><strong>Notifications</strong> — Enable / disable email notifications</p></li>
+<li><p><strong>Theme</strong> — Light or Dark mode</p></li>
+</ul>
+</li>
+<li><p>Click <strong>“Save Preferences”</strong></p></li>
+</ol>
+</section>
+</section>
+<section id="data-export-1">
+<span id="id9"></span><h1>Data Export<a class="headerlink" href="#data-export-1" title="Link to this heading"></a></h1>
+<section id="available-export-formats">
+<h2>Available Export Formats<a class="headerlink" href="#available-export-formats" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Format</strong></p></th>
+<th class="head"><p><strong>Use Case</strong></p></th>
+<th class="head"><p><strong>Available For</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>CSV</strong></p></td>
+<td><p>Data processing, Excel
+import, analysis</p></td>
+<td><p>Specimens,
+Transfers, Audit
+Logs</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Excel</strong></p></td>
+<td><p>Pre-formatted
+spreadsheets with
+styling</p></td>
+<td><p>Specimens, Reports</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>JSON</strong></p></td>
+<td><p>API integration, data
+pipelines</p></td>
+<td><p>Specimens, Audit
+Logs</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>PDF</strong></p></td>
+<td><p>Documentation, printed
+reports</p></td>
+<td><p>Audit Logs, Custody
+Reports</p></td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple" start="2">
+<li><p>Where Export is Available</p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>Biospecimen Registration</strong> — Export all registered specimens with
+metadata and custom fields</p></li>
+<li><p><strong>Transfer History</strong> — Export tracking requests with source,
+destination, and approval details</p></li>
+<li><p><strong>Audit Logs</strong> — Export filtered audit records with user actions and
+timestamps</p></li>
+<li><p><strong>Reports</strong> — Dashboard data, utilization reports, and scheduled
+report outputs</p></li>
+<li><p><strong>Chain of Custody</strong> — PDF custody reports for individual specimens</p></li>
+</ul>
+</section>
+<section id="export-process">
+<h2>Export Process<a class="headerlink" href="#export-process" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Navigate to the desired module (Registration, Tracking, Audit, etc.)</p></li>
+<li><p>Apply filters if needed (date range, status, location)</p></li>
+<li><p>Click the <strong>“Export”</strong> button</p></li>
+<li><p>Select format (CSV, Excel, JSON, or PDF)</p></li>
+<li><p>File downloads to your browser’s default download folder</p></li>
+</ol>
+</section>
+</section>
+<section id="keyboard-shortcuts-tips">
+<h1>Keyboard Shortcuts &amp; Tips<a class="headerlink" href="#keyboard-shortcuts-tips" title="Link to this heading"></a></h1>
+<section id="keyboard-shortcuts">
+<h2>Keyboard Shortcuts<a class="headerlink" href="#keyboard-shortcuts" title="Link to this heading"></a></h2>
+<section id="shortcut-action">
+<h3>Shortcut Action<a class="headerlink" href="#shortcut-action" title="Link to this heading"></a></h3>
+<blockquote>
+<div><p>Ctrl+K / Cmd+K Open global search</p>
+<p>Esc Close modal / dialog</p>
+</div></blockquote>
+</section>
+</section>
+<section id="navigation-tips">
+<h2>Navigation Tips<a class="headerlink" href="#navigation-tips" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Quick Search</strong> — Use the global search bar (Ctrl+K) to find
+specimens by UUID or subject token. Results update as you type.</p></li>
+<li><p><strong>Copy to Clipboard</strong> — Click the copy icon next to UUIDs or IDs to
+copy to clipboard for sharing or pasting into other systems.</p></li>
+<li><p><strong>Breadcrumb Navigation</strong> — Use breadcrumbs at the top of the page to
+navigate back to parent pages.</p></li>
+</ul>
+</section>
+<section id="table-tips">
+<h2>Table Tips<a class="headerlink" href="#table-tips" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Sorting</strong> — Click any column header to sort ascending; click again
+for descending</p></li>
+<li><p><strong>Pagination</strong> — Use page controls at the bottom of tables; adjust
+“Items per page” for larger views (10, 25, 50, 100)</p></li>
+<li><p><strong>Bulk Selection</strong> — Use the checkbox in the header to select all
+visible items</p></li>
+</ul>
+</section>
+<section id="form-tips">
+<h2>Form Tips<a class="headerlink" href="#form-tips" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Required Fields</strong> — Marked with a red asterisk (*). The form will
+not submit until all are filled.</p></li>
+<li><p><strong>Validation</strong> — Real-time validation shows errors as you type. Red
+borders indicate invalid input.</p></li>
+<li><p><strong>Autocomplete</strong> — Dropdowns with search support: start typing to
+filter options.</p></li>
+<li><p><strong>Date Pickers</strong> — Click the calendar icon or type the date in
+YYYY-MM-DD format.</p></li>
+</ul>
+</section>
+<section id="productivity-tips">
+<h2>Productivity Tips<a class="headerlink" href="#productivity-tips" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Use Filters First</strong> — Apply filters before exporting to reduce file
+size</p></li>
+<li><p><strong>Bookmark Pages</strong> — Save frequently used pages for quick access</p></li>
+<li><p><strong>Check Notifications Daily</strong> — Stay on top of pending approvals and
+alerts</p></li>
+<li><p><strong>Verify Before Bulk Upload</strong> — Test with 5–10 rows first, then upload
+the full dataset</p></li>
+<li><p><strong>Schedule Reports</strong> — Automate recurring reports instead of exporting
+manually</p></li>
+<li><p><strong>Use Templates</strong> — Create position templates for reusable box layouts</p></li>
+<li><p><strong>Enable OTP</strong> — Add two-factor authentication for enhanced security</p></li>
+</ul>
+</section>
+</section>
+<section id="support-help">
+<h1>Support &amp; Help<a class="headerlink" href="#support-help" title="Link to this heading"></a></h1>
+<section id="getting-help">
+<h2>Getting Help<a class="headerlink" href="#getting-help" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>System Administrator</strong> — Contact your organization’s biobank
+administrator for account issues, access requests, or permissions</p></li>
+<li><p><strong>Technical Support</strong> — Email your IT support team for login issues,
+password resets, or technical errors</p></li>
+<li><p><strong>User Guide</strong> — Refer to this guide for step-by-step instructions</p></li>
+</ul>
+</section>
+<section id="frequently-asked-questions">
+<h2>Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>Q: I forgot my password. How do I reset it?</strong> A: Click “Forgot
+Password” on the login page and follow the email instructions.
+Contact your administrator if the email does not arrive.</p>
+<p><strong>Q: I cannot see certain regions or sites in dropdowns. Why?</strong> A:
+Your access level restricts which locations you can see. Contact your
+administrator to request access to additional regions or sites.</p>
+<p><strong>Q: My account is locked. What should I do?</strong> A: After multiple
+failed login attempts, accounts are temporarily locked. Contact your
+administrator to unlock your account.</p>
+<p><strong>Q: Why can I not approve a transfer request?</strong> A: You need approval
+permissions (assigned via roles). Contact your administrator to
+request the appropriate role.</p>
+<p><strong>Q: My bulk upload failed. What went wrong?</strong> A: Check the
+validation results for row-level errors. Common issues include
+missing required fields, invalid locations, duplicate serial numbers,
+position conflicts, or incorrect date formats. You can use the skip
+checkboxes to exclude rows with certain error types and re-submit.</p>
+<p><strong>Q: The site is locked and I cannot register specimens. What do I
+do?</strong> A: Another user has an active bulk upload session for that
+site. Wait for the session to complete or expire, or ask an
+administrator to force-unlock the session.</p>
+<p><strong>Q: I cannot see certain buttons (Register, Request Movement, etc.).
+Why?</strong> A: Your account does not have the required permission flag for
+that action. Contact your administrator to request the appropriate
+permission.</p>
+<p><strong>Q: Can I undo a disposal?</strong> A: No. Disposals are permanent once
+confirmed. If you accidentally disposed of a specimen, contact your
+administrator immediately.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="appendix-glossary">
+<h1>Appendix: Glossary<a class="headerlink" href="#appendix-glossary" title="Link to this heading"></a></h1>
+<blockquote id="section-4">
+<div><p><strong>Access Level</strong> Permission tier (Global, Regional, Site) determining
+what data a user can see and manage</p>
+<p><strong>Aliquot</strong> A portion of a specimen divided for separate storage or
+testing</p>
+<p><strong>Audit Log</strong> Immutable record of all system activities for
+compliance and traceability <strong>Biospecimen</strong> A biological sample
+collected from a subject for research or clinical purposes <strong>Box</strong>
+Storage container with a grid layout (e.g., 9x9, 10x10) for holding
+specimens <strong>Category Type</strong> Classification of specimens (e.g., Blood,
+Tissue, DNA, RNA)</p>
+<p><strong>Chain of Custody</strong> Documented record of specimen handling,
+movement, and storage</p>
+<p><strong>Custom Field</strong> User-defined metadata attribute for specimens</p>
+<p><strong>Disposal</strong> Permanent removal of a specimen from inventory (used,
+degraded, or destroyed)</p>
+<p><strong>Freezer</strong> Temperature-controlled storage unit (e.g., -20C, -80C,
+liquid nitrogen)</p>
+<p><strong>OTP</strong> One-Time Password — temporary verification code sent via
+email for two-factor authentication</p>
+<p><strong>Partial Movement</strong> Splitting a specimen into multiple portions or
+aliquots</p>
+<p><strong>Position</strong> Individual cell in a box grid where a specimen is stored</p>
+<p><strong>Rack</strong> Shelf or compartment within a freezer holding multiple boxes</p>
+<p><strong>Region</strong> Geographic area containing one or more sites</p>
+<p><strong>Role</strong> Set of permissions defining what actions a user can perform</p>
+<p><strong>Site</strong> Physical location (laboratory, clinic, hospital, university,
+research center)</p>
+<p><strong>Subject</strong> Individual from whom a specimen was collected</p>
+<p><strong>Template</strong> Grid layout definition for boxes (rows x columns)</p>
+<p><strong>Permission Flag</strong> Fine-grained control determining which features,
+buttons, and menu items a user can access</p>
+</div></blockquote>
+<blockquote>
+<div><p>A timed, site-locked period during which bulk specimen import occurs</p>
+<p><strong>Site Lock</strong> Temporary lock on a site during an active bulk upload
+session, preventing individual registration</p>
+<p><strong>Tracking</strong> Recording and approving specimen movements between
+storage locations</p>
+<p><strong>UUID</strong> Universally Unique Identifier for specimens</p>
+<p><strong>Utilization Rate</strong> Percentage of occupied storage positions</p>
+<p><strong>Document Version:</strong> 1.1 <strong>Last Updated:</strong> February 25, 2026
+<strong>iCCaRE Biobank System</strong></p>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2026, sweetwilliams.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
